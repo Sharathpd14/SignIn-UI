@@ -24,7 +24,7 @@ const Index = () => {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" backgroundColor="#F4F4F4" />
 
-      {/* Logo */}
+     
       <View style={styles.logoContainer}>
         <Image
           source={require("../../assets/images/logo-nobg.png")}
@@ -33,7 +33,6 @@ const Index = () => {
         />
       </View>
 
-      {/* Heading */}
       <View style={styles.headingContainer}>
         <Text style={styles.heading}>Sign In</Text>
 
@@ -42,9 +41,9 @@ const Index = () => {
         </Text>
       </View>
 
-      {/* Form */}
+  
       <View style={styles.formContainer}>
-        {/* Email */}
+       
         <View style={styles.inputGroup}>
           <Text style={styles.label}>Email Address</Text>
 
@@ -60,7 +59,6 @@ const Index = () => {
           </View>
         </View>
 
-        {/* Password */}
         <View style={styles.inputGroup}>
           <Text style={styles.label}>Password</Text>
 
@@ -82,7 +80,6 @@ const Index = () => {
           </View>
         </View>
 
-        {/* Sign In Button */}
         <TouchableOpacity style={styles.signInButton}>
           <Text style={styles.signInText}>Sign In</Text>
 
@@ -90,7 +87,6 @@ const Index = () => {
         </TouchableOpacity>
       </View>
 
-      {/* Social Buttons */}
       <View style={styles.socialContainer}>
         <TouchableOpacity style={styles.socialButton}>
           <FontAwesome name="facebook" size={24} color="#222" />
@@ -105,7 +101,6 @@ const Index = () => {
         </TouchableOpacity>
       </View>
 
-      {/* Footer */}
       <View style={styles.footer}>
         <Text style={styles.footerText}>
           Don't have an account?{" "}
